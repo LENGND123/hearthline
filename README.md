@@ -4,7 +4,7 @@ Hearthline is an Alexa+ coach for the air around one household. You tell it the 
 
 The plan is specific: outdoor PE or a short one, windows open or shut, a mask for pickup, or an hour of night air and then close up. The answer changes with the US AQI band and with who is in the home.
 
-This is a submission for the [Build, Ship, Shape: Amazon Developer Hackathon](https://amazonappdev2026.devpost.com/) on the **Alexa+** track. The open-source mini challenge uses this same repository.
+This is a submission for the [Build, Ship, Shape: Amazon Developer Hackathon](https://amazonappdev2026.devpost.com/) on the **Alexa+** track. The open-source mini challenge uses this same repository: https://github.com/LENGND123/hearthline
 
 ## How it fits the track
 

@@ -6,6 +6,7 @@ https://amazonappdev2026.devpost.com/
 Primary track: Alexa+
 Mini challenge: Open Source
 GitHub username: LENGND123
+Repository: https://github.com/LENGND123/hearthline
 
 The demo video has to be a public YouTube or Vimeo link under 3 minutes, in English, with no copyrighted music. Record the simulator while it runs. A generated clip of the idea does not show the project functioning.
 
@@ -58,8 +59,8 @@ Onboarding: zero to a talking simulator was one evening after the import break. 
 
 ## Open Source mini challenge
 
-Contribution URL: this repository
-Project repository URL: this repository
+Contribution URL: https://github.com/LENGND123/hearthline
+Project repository URL: https://github.com/LENGND123/hearthline
 GitHub username: LENGND123
 
 What I did: published Hearthline as a new MIT-licensed project during the hackathon. It is a Streamable HTTP MCP server and a small Alexa+ simulator for household air decisions.
