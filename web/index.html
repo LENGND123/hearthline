@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hearthline · Alexa+</title>
+  <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+  <div class="room">
+    <header class="top">
+      <div class="brand">
+        <span class="seal" aria-hidden="true"></span>
+        <div>
+          <p class="eyebrow">Alexa+ simulator</p>
+          <h1>Hearthline</h1>
+        </div>
+      </div>
+      <p id="status" class="status">Connecting to MCP</p>
+    </header>
+
+    <main class="layout">
+      <section class="talk" aria-label="Conversation">
+        <div id="log" class="log"></div>
+        <div id="trace" class="trace" hidden></div>
+        <form id="composer" class="composer">
+          <button type="button" id="mic" class="mic" aria-label="Speak">Mic</button>
+          <label class="sr" for="say">Say something to Hearthline</label>
+          <input id="say" name="say" autocomplete="off" placeholder="We live in Ajmer. Riya is 8 and has asthma.">
+          <button type="submit" class="send">Ask</button>
+        </form>
+        <div class="chips">
+          <button type="button" data-say="Remember our home in Ajmer. Riya is 8 and has asthma. I am Aditya.">Remember the home</button>
+          <button type="button" data-say="Give me the school morning brief.">School brief</button>
+          <button type="button" data-say="Should we open the windows tonight?">Tonight's windows</button>
+          <button type="button" data-say="What do you remember about our home?">What you remember</button>
+          <button type="button" id="demo">Play the demo</button>
+        </div>
+      </section>
+
+      <section class="stage" aria-label="Alexa card">
+        <article id="card" class="card empty">
+          <p class="card-kicker">Waiting for a plan</p>
+          <h2>The card shows up here.</h2>
+          <p class="lede">Tell Hearthline who lives with you, then ask for the school morning. The number, the band, and the next three moves land on this card.</p>
+        </article>
+        <p class="credit">Air readings from <a href="https://open-meteo.com/">Open-Meteo</a>. Hearthline speaks only for this household.</p>
+      </section>
+    </main>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>
